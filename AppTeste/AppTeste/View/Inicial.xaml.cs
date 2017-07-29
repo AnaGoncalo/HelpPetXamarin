@@ -21,9 +21,9 @@ namespace AppTeste.View
             this.BindingContext = this.Controle;
 		}
 
-        private async void Btn_ListarDenuncias(object sender, EventArgs e)
+        private void Btn_ListarDenuncias(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AppTeste.View.ListagemDenuncias(), true);
+            Navigation.PushAsync(new ListagemDenuncias());
         }
 
     }

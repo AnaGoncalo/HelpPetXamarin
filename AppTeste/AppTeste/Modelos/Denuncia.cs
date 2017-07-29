@@ -10,7 +10,8 @@ namespace AppTeste.Modelos
     {
         public String Titulo { get; set; }
         public String Texto { get; set; }
+        public String Tipo { get; set; }
         public String Data { get; set; }
-
+       
     }
 }
